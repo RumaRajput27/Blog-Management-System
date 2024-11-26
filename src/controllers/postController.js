@@ -56,7 +56,7 @@ exports.getPosts = (req, res) => {
 };
 
 // Get All Posts
-exports.getPosts = (req, res) => {
+exports.getAllPosts = (req, res) => {
   db.query(
     `SELECT * FROM posts`,
     (err, results) => {
